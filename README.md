@@ -11,7 +11,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 
  perl -pi -w -e 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/g;' ~/.zshrc 
- perl -pi -w -e 's/plugins=.*/plugins=(git ssh-agent zsh-autosuggestions zsh-syntax-highlighting)/g;' ~/.zshrc
+ perl -pi -w -e 's/plugins=.*/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g;' ~/.zshrc
 
 sudo apt-get install -y curl
 sudo apt -y install build-essential cmake
