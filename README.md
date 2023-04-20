@@ -99,3 +99,102 @@
    96* http post http://localhost:3030/ method=query jsonrpc=2.0 id=1 \\n    params:='{"request_type": "view_account", "finality": "final", "account_id": "alice.test.near"}' \\n    | jq '.result.amount'
    97* near login
    98* cargo run --profile quick-release -p neard -- run
+   
+   99  history
+  100  near login
+  101  neard
+  102  find -name login
+  103  sudo find -name login
+  104  find / -name "login" 2>/dev/null
+  105  find /nearcore -name "login" 2>/dev/null
+  106  find /nearcore/ -name "login" 2>/dev/null
+  107  find /nearcore/ -exec grep -Hi login \;
+  108  find /nearcore -exec grep -Hi login \;
+  109  find ~/nearcore -exec grep -Hi login \;
+  110  find ~/nearcore -name "login" 2>/dev/null
+  111  find ~/nearcore -exec grep -Hi login \;
+  112  find ~/nearcore/neard -exec grep -Hi login \;
+  113  find ~/nearcore/neard -exec grep -Hi near \;\n
+  114  find ~/nearcore/neard/ -exec grep -Hi login \;
+  115  grep "login" ~/nearcore/neard/
+  116  grep "login" ~/nearcore/neard
+  117  grep "login" ~/nearcore/neard/*
+  118  grep -r  "login" ~/nearcore/neard/
+  119  grep -r  "login" ~/nearcore/
+  120  grep -r  "localhost" ~/nearcore/
+  121  grep -r  "localhost:4000" ~/nearcore/
+  122  grep -r  "4000" ~/nearcore/
+  123  grep -r  "'4000" ~/nearcore/
+  124  grep -r  "=4000" ~/nearcore/
+  125  grep -r  "address" ~/nearcore/
+  126  grep -r  "config.js" ~/nearcore/
+  127  grep -r  "wallet" ~/nearcore/
+  128  find ~/nearcore/neard/ -name wallet
+  129  find ~/nearcore/ -name wallet
+  130  find ~/nearcore/ -name .rc
+  131  find ~/nearcore/ -name .rs
+  132  find ~/nearcore -name .rs
+  133  find ./nearcore -name .rs
+  134  find ./nearcore/ -name .rs
+  135  find ~/nearcore -name .md
+  136  find ~/nearcore -name *.md
+  137  find ~/nearcore -name *
+  138  find ~/nearcore --name *
+  139  find -r ~/nearcore -name *.md
+  140  find -r ~/nearcore -name *
+  141  find --help
+  142  find -H ~/nearcore -name *
+  143  find ~/nearcore -name "*"
+  144  find ~/nearcore -name "wallet"
+  145  find ~/nearcore -name "*.rs"
+  146  near login
+  147  NEAR_ENV=local near login
+  148  NEAR_ENV=testnet near login
+  149  NEAR_ENV=mainnet near login
+  150  find ~/nearcore -name "config.json"
+  151  find ~/nearcore -name "config.js"
+  152  find ~/nearcore -name "config"
+  153  grep -r  "near login" ~/nearcore/
+  154  grep -r  "near login" ~
+  155  cd ..
+  156  ls
+  157  ls -al
+  158  cd .near
+  159  cd ..
+  160  cd .near-config
+  161  cd ..
+  162  cd .near-credentials
+  163  ls
+  164  cd ..
+  165  ls
+  166  grep -r  "near login" ~/.near/
+  167  grep -r  "login" ~/.near/
+  168  grep -r  "3AEoJo4ak4RoPkp8rYBqCeLqDd6MBCgJPWNRQLBFUZqsky" ~/
+  169  sudo grep -r  "3AEoJo4ak4RoPkp8rYBqCeLqDd6MBCgJPWNRQLBFUZqsky" ~/
+  170  sudo grep -r  ":4000" ~
+  171  sudo grep -r  ":4000" ~/nearcore
+  172  sudo grep -r  "%3A" ~/nearcore
+  173  sudo grep -r  "3A" ~/nearcore
+  174  sudo grep -r  "Local address" ~/nearcore
+  175  sudo grep -r  "Local address" ~
+  176  sudo grep -r  "NetworkConfig" ~
+  177  find ~/nearcore -name "NetworkConfig"
+  178  find ~/ -name "NetworkConfig"
+  179  find ~/ -name "network"
+  180  sudo grep -r  "wallet.near" ~
+  181  NEAR_ENV=mainnet near login
+  182  NEAR_ENV=localnet near login
+  183  ^[[200~'/home/teamnova/nearcore/target/quick-release/neard' init
+  184  '/home/teamnova/nearcore/target/quick-release/neard' -h localnet\n
+  185  '/home/teamnova/nearcore/target/quick-release/neard' localnet\n
+  186  NEAR_ENV=localnet near login --help
+  187  NEAR_ENV=localnet near login --nodeUrl
+  188  NEAR_ENV=localnet near login --version
+  189  NEAR_ENV=localnet near login --networkId local
+  190  NEAR_ENV=localnet near login --networkId "local"
+  191  NEAR_ENV=localnet near login --h
+  192  NEAR_ENV=localnet near login --help
+  193  near --help
+  194  NEAR_ENV=localnet near login -v
+  195  NEAR_ENV=testnet near login -v
+
