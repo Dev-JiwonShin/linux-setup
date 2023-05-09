@@ -11,16 +11,16 @@
  `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
  ### install and setup 'zsh-autosuggestions'
- `git clone https://github.com/zsh-users/zsh-autosuggestions `
- `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+ `git clone https://github.com/zsh-users/zsh-autosuggestions `<br>
+ `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`<br>
  `source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh`
 
  ### install and setup 'zsh-syntax-highlighting'
- `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git `
+ `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git `<br>
  `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 
  ### change zsh theme 
- `perl -pi -w -e 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/g;' ~/.zshrc `
+ `perl -pi -w -e 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/g;' ~/.zshrc `<br>
  `perl -pi -w -e 's/plugins=.*/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g;' ~/.zshrc`
 
 ### 기본적인거 설치 2
@@ -32,7 +32,7 @@
 
 
 ### install rust
-`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`<br>
  `source "$HOME/.cargo/env"`
 
 
@@ -49,6 +49,6 @@
 
 
 ### zshrc에 아래 내용 넣으면 단축키 편함
- `alias v_zsh="vi ~/.zshrc"`
+ `alias v_zsh="vi ~/.zshrc"`<br>
  `alias s_zsh="source ~/.zshrc"`
  
