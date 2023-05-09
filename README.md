@@ -56,6 +56,7 @@
  `alias Szsh="source ~/.zshrc"`<br>
  `alias c='clear'`<br>
  `alias cc="clear && printf '\e[3J'"`<br>
+ `alias cg='cargo'`<br>
  
  
 ### ssh
