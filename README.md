@@ -3,6 +3,7 @@
 
 ### 기본적인거 설치 1
  `sudo apt-get install -y git wget zsh tzdata vim openssh-server mysql-server mysql-client sudo ufw curl fonts-powerline net-tools`
+`sudo locale-gen`
 
 ### bash에서 zsh로 변환(컴퓨터를 재부팅해야만 zsh가 적용됨)
  `sudo chsh -s $(which zsh)`
