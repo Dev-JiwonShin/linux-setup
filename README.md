@@ -54,3 +54,12 @@
  `alias Vzsh="vi ~/.zshrc"`<br>
  `alias Szsh="source ~/.zshrc"`
  
+### ssh
+ `sudo apt install ssh`<br>
+ `sudo vi /etc/ssh/sshd_config`(change your port)<br>
+ `sudo /etc/init.d/ssh restart`
+ `sudo netstat -anp|grep LISTEN|grep sshd`
+ 
+ 
+ `https://hei-jung.github.io/linux/linux-remote-access/`
+ 
