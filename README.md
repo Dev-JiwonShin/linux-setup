@@ -27,8 +27,7 @@
  `sudo apt -y install build-essential cmake make clang pkg-config libssl-dev httpie nodejs npm librocksdb-dev jq`
 
 ### 쓸모없는 파일들 함 정리해주고
- `sudo apt-get autoclean `
- `sudo apt-get autoremove -y `
+ `sudo apt-get -y autoclean autoremove`
 
 
 
