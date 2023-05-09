@@ -12,12 +12,14 @@
 
  ### install and setup 'zsh-autosuggestions'
  `git clone https://github.com/zsh-users/zsh-autosuggestions `<br>
- `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`<br>
- `source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh`
+ `vi ~/.zshrc`
+ `source ~/zsh-autosuggestions/zsh-autosuggestions.zsh`<br>
 
  ### install and setup 'zsh-syntax-highlighting'
  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git `<br>
- `${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+ `vi ~/.zshrc`
+ `source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`<br>
+ 
 
  ### change zsh theme 
  `perl -pi -w -e 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/g;' ~/.zshrc `<br>
