@@ -49,6 +49,6 @@
 
 
 ### zshrc에 아래 내용 넣으면 단축키 편함
- `alias v_zsh="vi ~/.zshrc"`<br>
- `alias s_zsh="source ~/.zshrc"`
+ `alias Vzsh="vi ~/.zshrc"`<br>
+ `alias Szsh="source ~/.zshrc"`
  
