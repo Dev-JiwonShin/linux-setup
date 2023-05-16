@@ -44,11 +44,11 @@
 
 
 ### zshrc에 아래 내용 넣으면 터미널에 나타나는 유저명 짧아짐
- `prompt_context() { `
-`   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then`
-     `prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"`
-`   fi`
-` }`
+ `prompt_context() { `<br>
+`   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then`<br>
+     `prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"`<br>
+`   fi`<br>
+` }`<br>
 
 
 ### zshrc에 아래 내용 넣으면 단축키 편함
