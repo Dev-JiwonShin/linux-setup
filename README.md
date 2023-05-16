@@ -24,7 +24,7 @@
 
  ### change zsh theme 
  `perl -pi -w -e 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/g;' ~/.zshrc `<br>
- `perl -pi -w -e 's/plugins=.*/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/g;' ~/.zshrc`<br>
+ `perl -pi -w -e 's/plugins=.*/plugins=(git )/g;' ~/.zshrc`<br>
 
 ### 기본적인거 설치 2
  `sudo apt -y install build-essential cmake make clang pkg-config libssl-dev httpie nodejs npm librocksdb-dev jq`<br>
