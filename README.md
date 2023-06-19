@@ -26,22 +26,6 @@
  `perl -pi -w -e 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/g;' ~/.zshrc `<br>
  `perl -pi -w -e 's/plugins=.*/plugins=(git )/g;' ~/.zshrc`<br>
 
-### 기본적인거 설치 2
- `sudo apt -y install build-essential cmake make clang pkg-config libssl-dev httpie nodejs npm librocksdb-dev jq`<br>
-
-### 쓸모없는 파일들 함 정리해주고
- `sudo apt-get -y autoclean autoremove`<br>
-
-
-
-### install rust
-`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`<br>
- `source "$HOME/.cargo/env"`
-
-
-### zsh--autocomplete는 링크 참고해서 따로 다운로드 받을 것
- `https://github.com/marlonrichert/zsh-autocomplete`<br>
-
 
 ### zshrc에 아래 내용 넣으면 터미널에 나타나는 유저명 짧아짐
  `prompt_context() { `<br>
@@ -58,7 +42,18 @@
  `alias cc="clear && printf '\e[3J'"`<br>
  `alias cg='cargo'`<br>
  
- 
+### 기본적인거 설치 2
+ `sudo apt -y install build-essential cmake make clang pkg-config libssl-dev httpie nodejs npm librocksdb-dev jq ssh`<br>
+
+### install rust
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`<br>
+ `source "$HOME/.cargo/env"`
+
+
+### 쓸모없는 파일들 함 정리해주고
+ `sudo apt-get -y autoclean autoremove`<br>
+
+
 ### ssh
  `sudo apt install ssh`<br>
  `sudo vi /etc/ssh/sshd_config`(change your port)<br>
@@ -66,4 +61,7 @@
  `sudo netstat -anp|grep LISTEN|grep sshd`<br>
  
  `https://hei-jung.github.io/linux/linux-remote-access/`<br>
- 
+
+
+ ### zsh--autocomplete는 링크 참고해서 따로 다운로드 받을 것
+ `https://github.com/marlonrichert/zsh-autocomplete`<br>
