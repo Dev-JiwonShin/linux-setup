@@ -1,5 +1,5 @@
 ### 첫줄.. 이건설명안함
-`sudo apt-get -y update`<br>
+`sudo apt -y update && sudo apt-get -y update`<br>
 
 ### 기본적인거 설치 1
  `sudo apt-get install -y git wget zsh tzdata vim openssh-server mysql-server mysql-client sudo ufw curl fonts-powerline net-tools`<br>
@@ -11,21 +11,29 @@
 ### install and setup 'oh-my-zsh'
  `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`<br>
 
- ### install and setup 'zsh-autosuggestions'
+
+### change zsh theme 
+ `perl -pi -w -e 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/g;' ~/.zshrc `<br>
+ `perl -pi -w -e 's/plugins=.*/plugins=(git )/g;' ~/.zshrc`<br>
+ 
+### install and setup 'zsh-autosuggestions'
  `git clone https://github.com/zsh-users/zsh-autosuggestions `<br>
  `vi ~/.zshrc`<br>
  `source ~/zsh-autosuggestions/zsh-autosuggestions.zsh`<br>
 
- ### install and setup 'zsh-syntax-highlighting'
+### install and setup 'zsh-syntax-highlighting'
  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git `<br>
  `vi ~/.zshrc`<br>
  `source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`<br>
  
 
- ### change zsh theme 
- `perl -pi -w -e 's/ZSH_THEME=.*/ZSH_THEME="agnoster"/g;' ~/.zshrc `<br>
- `perl -pi -w -e 's/plugins=.*/plugins=(git )/g;' ~/.zshrc`<br>
-
+### zshrc에 아래 내용 넣으면 단축키 편함
+ `alias Vzsh="vi ~/.zshrc"`<br>
+ `alias Szsh="source ~/.zshrc"`<br>
+ `alias c='clear'`<br>
+ `alias cc="clear && printf '\e[3J'"`<br>
+ `alias cg='cargo'`<br>
+ 
 
 ### zshrc에 아래 내용 넣으면 터미널에 나타나는 유저명 짧아짐
  `prompt_context() { `<br>
@@ -35,13 +43,7 @@
 ` }`<br>
 
 
-### zshrc에 아래 내용 넣으면 단축키 편함
- `alias Vzsh="vi ~/.zshrc"`<br>
- `alias Szsh="source ~/.zshrc"`<br>
- `alias c='clear'`<br>
- `alias cc="clear && printf '\e[3J'"`<br>
- `alias cg='cargo'`<br>
- 
+
 ### 기본적인거 설치 2
  `sudo apt -y install build-essential cmake make clang pkg-config libssl-dev httpie nodejs npm librocksdb-dev jq ssh`<br>
 
