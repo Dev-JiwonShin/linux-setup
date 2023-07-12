@@ -2,7 +2,7 @@
 `sudo apt -y update && sudo apt-get -y update`<br>
 
 ### 기본적인거 설치 1
- `sudo apt-get install -y git wget zsh tzdata vim openssh-server mysql-server mysql-client sudo ufw curl fonts-powerline net-tools`<br>
+ `sudo apt-get install -y git wget zsh tzdata vim openssh-server sudo ufw curl fonts-powerline`<br>
 `sudo locale-gen`<br>
 
 ### bash에서 zsh로 변환(컴퓨터를 재부팅해야만 zsh가 적용됨)
@@ -45,7 +45,7 @@
 
 
 ### 기본적인거 설치 2
- `sudo apt -y install build-essential cmake make clang pkg-config libssl-dev httpie nodejs npm librocksdb-dev jq ssh`<br>
+ `sudo apt -y install build-essential cmake make clang pkg-config libssl-dev httpie nodejs npm librocksdb-dev jq ssh mysql-server mysql-client net-tools`<br>
 
 ### install rust
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`<br>
