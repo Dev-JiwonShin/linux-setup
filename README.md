@@ -45,12 +45,18 @@
 
 
 ### 기본적인거 설치 2
- `sudo apt -y install build-essential cmake make clang pkg-config libssl-dev httpie nodejs npm librocksdb-dev jq ssh mysql-server mysql-client net-tools`<br>
+ `sudo apt -y install build-essential cmake make clang pkg-config libssl-dev httpie nodejs librocksdb-dev jq ssh net-tools`<br>
 
 ### install rust
 `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`<br>
  `source "$HOME/.cargo/env"`
 
+### install nvm
+`curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash`
+`nvm install --lts`
+
+### install mysql
+`mysql-server mysql-client`
 
 ### 쓸모없는 파일들 함 정리해주고
  `sudo apt-get -y autoclean autoremove`<br>
