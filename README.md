@@ -42,6 +42,15 @@
 `   fi`<br>
 ` }`<br>
 
+### git
+`alias g='git'`<br>
+`alias gpx="git pull -X theirs"`<br>
+`alias gpu="git push"`<br>
+`alias gcam="git add . && git commit -m "`<br>
+`alias gcl='git clone'`<br>
+`alias gl="git log --pretty=oneline"`<br>
+`alias gh="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --graph --topo-order --abbrev-commit --decorate"`<br>
+`alias gh-all="git log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --full-history --all --graph --topo-order --abbrev-commit --decorate"`<br>
 
 
 ### 기본적인거 설치 2
