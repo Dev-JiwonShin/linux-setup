@@ -40,7 +40,7 @@
 `   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then`<br>
      `prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"`<br>
 `   fi`<br>
-` }`<br>
+`}`<br>
 
 ### git
 `alias g='git'`<br>
